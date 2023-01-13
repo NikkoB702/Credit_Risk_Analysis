@@ -34,3 +34,5 @@ LendingClub, a peer-to-peer lending service has asked us to use their available 
 
 
 ## Summary
+
+Briefly it appears that the Easy Ensemble classifier outperforms the other models. The accuracy rate is a touch over 93%. The Easy Ensemble classifier also outperforms the other models in categories like precision, recall and F1 score. However, based on further analysis we see a wide difference between precision and recall and unfortunately it goes against what we desire. Our recall rate is at 94% while the precision rate is a mere 9%. This means that we have an aggressive model which might result in several false positives. Conversely, our F1 score runs at 16% which indicates a pronounced imbalance between sensitivity and precision. I would recommend a model that is both accurate and strikes a balance between precision and recall.
